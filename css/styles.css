@@ -158,7 +158,10 @@ img {
   align-items: baseline;
   margin-right: 120px;
 }
-
+.footer-content {
+  display: flex;
+  margin-right: 120px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
