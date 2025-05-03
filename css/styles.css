@@ -290,6 +290,9 @@ img {
 }
 
 /* 2 секція */
+.people-office {
+  background-image: none;
+}
 .feature-title {
   font-weight: 500;
   font-size: 20px;
