@@ -148,8 +148,13 @@ img {
 .footer-dark {
   padding: 100px 0;
   background-color: #2e2f42;
-
   color: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 24px;
 }
 
 .footer-logo {
@@ -161,10 +166,23 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
   color: #ffffff;
+  text-decoration: none;
 }
+
+.logo-studio {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color, #f4f4fd);
+  max-width: 264px;
+}
+
 .footer-social {
   display: flex;
   flex-direction: column;
@@ -184,6 +202,7 @@ img {
   display: flex;
   gap: 16px;
 }
+
 .footer-social-item {
   width: 40px;
   height: 40px;
@@ -208,30 +227,11 @@ img {
 .footer-social-icon {
   fill: var(--cloud, #f4f4fd);
 }
-.logo-studio {
-  color: #4d5ae5;
-}
 
 :root {
   --footer-text-color: #f4f4fd;
 }
 
-.footer-text {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--footer-text-color);
-  text-decoration: none;
-  max-width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #f4f4fd;
-}
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-}
 /* Секція */
 .business-section {
   background-image: linear-gradient(
