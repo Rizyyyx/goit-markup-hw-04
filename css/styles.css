@@ -155,6 +155,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 72px 24px;
+  align-items: baseline;
 }
 
 .footer-logo {
