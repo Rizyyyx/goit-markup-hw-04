@@ -160,7 +160,9 @@ img {
   align-items: baseline;
 }
 .footer-content {
+  display: flex;
   margin-right: 120px;
+  align-items: baseline;
 }
 .footer-logo {
   display: inline-block;
