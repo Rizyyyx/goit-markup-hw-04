@@ -159,10 +159,12 @@ img {
   gap: 72px 24px;
   align-items: baseline;
 }
-.footer-content {
+.footer-container {
   display: flex;
-  margin-right: 120px;
   align-items: baseline;
+}
+.footer-content {
+ margin-right: 120px;
 }
 .footer-logo {
   display: inline-block;
